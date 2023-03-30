@@ -8,8 +8,10 @@ import sessionRoutes from "./Routes/session.routes";
 import userRoutes from "./Routes/user.routes";
 
 
+var cors = require('cors')
 const app = express();
 app.use(express.json());
+app.use(cors())
 app.use('/login', sessionRoutes)
 app.use('/users', userRoutes)
 app.use('/users/contacts', contactRoutes)
