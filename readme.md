@@ -8,7 +8,7 @@ Com o Node.js e o Yarn instalados, abra o terminal e navegue até a pasta raiz d
 
 ## Executando o servidor
 
-Com as dependências instaladas, você pode executar o servidor utilizando o seguinte comando: 'yarn dev'. Este comando irá iniciar o servidor em modo de desenvolvimento. O servidor será iniciado na porta 3000, e você poderá acessá-lo no seu navegador através do endereço `http://localhost:3000`.
+Com as dependências instaladas, você pode executar o servidor utilizando o seguinte comando: 'yarn dev'. Este comando irá iniciar o servidor em modo de desenvolvimento. O servidor será iniciado na porta 3000, e você poderá acessá-lo no seu navegador através do endereço `http://localhost:3000`, porém pode ser utilizado `https://contactspace.onrender.com`.
 
 Caso você queira executar o servidor em modo de produção, utilize o seguinte comando: yarn start. 
 
