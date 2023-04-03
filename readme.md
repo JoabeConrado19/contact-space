@@ -16,5 +16,5 @@ Este comando irá iniciar o servidor em modo de produção. O servidor será ini
 
 ## Documentação
 
-Para mais informações sobre como utilizar este programa, por favor, consulte a documentação disponível em [link-da-documentacao](link-da-documentacao).
+Para mais informações sobre como utilizar este programa, tais com as suas rotas, por favor, consulte a documentação disponível no index.html, para fazer isso você pode abrir em localhost após instalar as dependências.
 
