@@ -18,3 +18,66 @@ Este comando irá iniciar o servidor em modo de produção. O servidor será ini
 
 Para mais informações sobre como utilizar este programa, tais com as suas rotas, por favor, consulte a documentação disponível no index.html, para fazer isso você pode abrir em localhost após instalar as dependências.
 
+## Rotas
+
+Contact
+
+PATCH Edit Contact
+https://contactspace.onrender.com/users/contacts/:id
+Authorization
+Bearer Token
+Body Example json
+{
+  "name": "Joabe Conrado"
+}
+
+
+POST Contact Append
+https://contactspace.onrender.com/users/contacts
+Authorization
+Bearer Token
+Body Example json
+{
+  "name": "Ben ferreita",
+  "email": "ben@gmail.com",
+  "telephone": "32215676543"
+}
+DELETE Delete Contact
+https://contactspace.onrender.com/users/contacts/:id
+Authorization
+Bearer Token
+
+Section
+POST Login
+https://contactspace.onrender.com/login
+Body Example json
+{
+  "email": "1@gmail.com",
+  "password": "Gerente123"
+}
+
+User
+DELETE Delete User
+https://contactspace.onrender.com/users/:id
+
+POST Create User
+https://contactspace.onrender.com/users
+Body Example json
+{
+  "name": "Joabe Conrado",
+  "password": "Gerente123!",
+  "email": "admin@gmail.com",
+  "telephone": 92994453565
+}
+
+PATCH Edit User
+https://contactspace.onrender.com/users/:id
+Body Example json
+{
+  "name": "Joabee Conrado"
+}
+
+GET Get User
+https://contactspace.onrender.com/users
+
+
