@@ -20,7 +20,7 @@ Para mais informações sobre como utilizar este programa, tais com as suas rota
 
 ## Rotas
 
-Contact
+##Contact
 
 PATCH Edit Contact
 https://contactspace.onrender.com/users/contacts/:id
@@ -47,7 +47,8 @@ https://contactspace.onrender.com/users/contacts/:id
 Authorization
 Bearer Token
 
-Section
+##Section
+
 POST Login
 https://contactspace.onrender.com/login
 Body Example json
@@ -56,7 +57,8 @@ Body Example json
   "password": "Gerente123"
 }
 
-User
+##User
+
 DELETE Delete User
 https://contactspace.onrender.com/users/:id
 
