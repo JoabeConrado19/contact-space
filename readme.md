@@ -4,7 +4,7 @@ Para utilizar este programa, você precisa ter o **Node.js** e o **Yarn** instal
 
 ## Instalação das dependências
 
-Com o Node.js e o Yarn instalados, abra o terminal e navegue até a pasta raiz deste projeto. Em seguida, execute o seguinte comando para instalar as dependências listadas no arquivo `package.json`: yarn:
+Com o Node.js e o Yarn instalados, abra o terminal e navegue até a pasta raiz deste projeto. Em seguida, execute o seguinte comando para instalar as dependências listadas no arquivo `package.json`: yarn
 
 ## Executando o servidor
 
